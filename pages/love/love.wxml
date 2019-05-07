@@ -1,0 +1,11 @@
+<view class="page" style='{{"width:"+width+"px;height:"+height+"px"}}'>
+  <view class='ui'>
+      <div class="love" wx:for="{{words}}"  wx:key="*this">
+        <div class="love_horizontal" style="{{'animation-delay:-'+((index+1) * 300)+'ms'}}">
+          <div class="love_vertical" style="{{'animation-delay:-'+((index+1) * 300)+'ms'}}">
+            <span class="love_word">{{item}}</span>
+          </div>
+        </div>
+      </div>
+  </view>
+</view>

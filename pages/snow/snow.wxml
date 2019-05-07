@@ -1,0 +1,9 @@
+<view class='body' style="height:{{height}}px" bindtap='links'>
+<view id="snowman"><view id="face"></view></view>
+<view id="lis">
+  <p>Let it snow,</p>
+  <p>let it snow,</p>
+  <p>code the snow.</p>
+</view>
+</view> 
+<canvas canvas-id='myCanvas' style="position:fixed;top:0;height:{{height}}px;width:{{width}}px"></canvas>

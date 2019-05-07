@@ -1,0 +1,105 @@
+.page{background: #000;
+  overflow: hidden;height: 100%;}
+.ui .love{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -260px 0 0 -210px;
+  display: block;
+}
+.ui .love:last-child .love_word{
+  color: red;
+  font-size: 32px;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 1);
+}
+.ui .love_word{
+  color: #fff;
+      font-size: 16px;
+      transform: translateY(-100%) rotateZ(-30deg);
+      font-family: 'Dosis', sans-serif;
+      text-shadow: 0 0 10px rgba(255, 200, 0, 1);
+      letter-spacing: 2px;
+      display: block;
+}
+.ui .love_horizontal{
+animation: horizontal 10000ms infinite alternate ease-in-out;
+display: block;
+}
+.ui .love_vertical{
+  animation: vertical 20000ms infinite linear;
+  display: block;
+}
+
+@keyframes horizontal {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(350px);
+  }
+}
+@keyframes vertical {
+  0% {
+    transform: translateY(150px);
+  }
+  10% {
+    transform: translateY(45px);
+  }
+  15% {
+    transform: translateY(4.5px);
+  }
+  18% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(4.5px);
+  }
+  22% {
+    transform: translateY(34.6px);
+  }
+  24% {
+    transform: translateY(64.3px);
+  }
+  25% {
+    transform: translateY(112.5px);
+  }
+  26% {
+    transform: translateY(64.3px);
+  }
+  28% {
+    transform: translateY(34.6px);
+  }
+  30% {
+    transform: translateY(4.5px);
+  }
+  32% {
+    transform: translateY(0px);
+  }
+  35% {
+    transform: translateY(4.5px);
+  }
+  40% {
+    transform: translateY(45px);
+  }
+  50% {
+    transform: translateY(150px);
+  }
+  71% {
+    transform: translateY(400px);
+  }
+  72.5% {
+    transform: translateY(411.2px);
+  }
+  75% {
+    transform: translateY(420px);
+  }
+  77.5% {
+    transform: translateY(411.2px);
+  }
+  79% {
+    transform: translateY(400px);
+  }
+  100% {
+    transform: translateY(150px);
+  }
+}

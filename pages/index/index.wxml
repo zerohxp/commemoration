@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<import src="../../utils/wxParse/wxParse.wxml" />
+<view class='page' style='{{"width:"+width+"px;height:"+height+"px"}}'>
+<audio id="myAudio"  src="https://s.dodoca.com/applet_weapp/mp3/bg9040.mp3" loop></audio>
+
+  <image src="../../images/bg.jpg" style="width:100%;height:100%" bindtap='open' class='{{imageCss}}'></image>
+  <view class='main {{mainCss}}'  style='{{"width:"+width+"px;height:"+height+"px"}}'>
+
+   <canvas  canvas-id="myCanvas" style="width: {{width}}px; height: 450px;"></canvas>
+   <div id="code" class="{{wordCss}}">
+			<template is="wxParse" data="{{wxParseData:wordHtml.nodes}}"></template>
+		</div>
+    <div id="messages" class="{{togetherCss}}">
+			<span class="tit">亲爱的，这是我们相爱在一起的时光 </span>
+					<!-- <div id="elapseClock"><span class="digit"> {{days}}  </span> 天 <span class="digit"> {{hours}} </span> 小时 <span class="digit"> {{minutes}} </span> 分 <span class="digit"> {{seconds}} </span> 秒</div> -->
+          <div id="elapseClock" class="{{timeCss}}">
+          	<template is="wxParse" data="{{wxParseData:elapseClock.nodes}}"></template>
+            </div>
+		</div>
+    <div class="bg_heart"><template is="wxParse" data="{{wxParseData:loveTopHtml.nodes}}"></template></div>
+    </view>
+</view>
+

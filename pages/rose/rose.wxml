@@ -1,0 +1,112 @@
+<view class="page" style='{{"width:"+width+"px;height:"+height+"px"}}'>
+  <div class="love"><span class="letter">I</span><span class="letter"></span><span class="letter">L</span><span class="letter">o</span><span class="letter">v</span><span class="letter">e</span><span class="letter"></span><span class="letter">Y</span><span class="letter">o</span><span class="letter">u</span><span class="letter"></span><span class="letter">G</span><span class="letter">r</span><span class="letter">a</span><span class="letter">c</span><span class="letter">e</span><span class="letter">!</span>
+</div>
+<div class="roses">
+  <div class="rose">
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+  </div>
+  <div class="rose">
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+  </div>
+  <div class="rose">
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+  </div>
+  <div class="rose">
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+  </div>
+  <div class="rose">
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+  </div>
+  <div class="rose">
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+  </div>
+  <div class="rose">
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+    <div class="pedal"></div>
+  </div>
+</div>
+<div class="bubbles">
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble"><span class="heart">❤</span>
+  </div>
+  <div class="bubble">
+    <span class="heart">❤</span>
+  </div>
+</div>
+</view>
